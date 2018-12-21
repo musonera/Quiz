@@ -13,42 +13,49 @@
                 <h1>QUIZ BOARD</h1>
              </div>
              <div class ="question">
+                 <ol>
                        
-         <h4><li>What is the other name for JavaScript?</li> </h4>
+         <h4><li>What is the other name for JavaScript?</li></h4>
 
-       <form action="/success-page" class="">
-          <input type="radio" name="question1" value="ECMAScript">ECMAScript<br>
-          <input type="radio" name="question1" value="vue">Vue <br>
-          <input type="radio" name="question1" value="no answer">  I don't know 
+       <form action="/success-page" class="myForm">
+          <input type="radio" name="question1" value="8">ECMAScript<br>
+          <input type="radio" name="question1" value="0">Vue <br>
+          <input type="radio" name="question1" value="0">  I don't know 
       </form> 
       <h4><li> of the following is the correct syntax to print a page using JavaScript?</li></h4>
 
       <form>
-          <input type="radio" name="question" value=" window.print();" > window.print();<br>
-          <input type="radio" name="question" value="browser.print();">browser.print();<br>
-         <input type="radio" name="question" value="navigator.print();"> navigator.print(); 
+          <input type="radio" name="question2" value="8" > window.print();<br>
+          <input type="radio" name="question2" value="0">browser.print();<br>
+         <input type="radio" name="question2" value="0"> navigator.print(); 
       </form> 
-      <h4><li> built-in method returns the calling string value converted to upper case?</li></h4>
+      <h4><li> Which built-in method returns the calling string value converted to upper case?</li></h4>
       <form>
-        <input type="radio" name="gender" value=" toUpperCase()"> toUpperCase() <br>
-        <input type="radio" name="gender" value="toUpper()">toUpper()<br>
-        <input type="radio" name="gender" value="changeCase(case)">changeCase(case) 
+        <input type="radio" name="question3" value="0">toUpper()<br>
+        <input type="radio" name="question3" value="8"> toUpperCase() <br>
+        <input type="radio" name="question3" value="0">changeCase(case) 
      </form> 
     <h4><li> Which built-in method calls a function for each element in the array?</li></h4>
     <form>
-        <input type="radio" name="gender" value="while()">while() <br>
-        <input type="radio" name="gender" value="loop()"> loop()<br>
-        <input type="radio" name="gender" value="forEach()"> forEach()  
+        <input type="radio" name="question4" value="0">while() <br>
+        <input type="radio" name="question4" value="0"> loop()<br>
+        <input type="radio" name="question4" value="8"> forEach()  
     </form> 
     <h4><li>Which of the following function of Array object sorts the elements of an array?</li></h4>
 
     <form>
-       <input type="radio" name="gender" value="toSource()">toSource() <br>
-       <input type="radio" name="gender" value="sort()"> sort()<br>
-       <input type="radio" name="gender" value="toString()">toString()<br>  
-  
+       <input type="radio" name="question5" value="0">toSource() <br>
+       <input type="radio" name="question5" value="8"> sort()<br>
+       <input type="radio" name="question5" value="0">toString()<br>  
+    </ol>
+    <div class="well">
+            <p>Good Luck!!!!</p>
+    </div>
    <div class="one">
-       <button onclick = "myProject()">submit</button>
+       <button onclick = "myQuiz()">submit</button>
+   </div>
+   <div class="final">
+    <span id="display">Your score is:0</span>
    </div>
 </form>
 </div>
