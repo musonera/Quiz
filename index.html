@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+   <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
    <link href="css/styles.css" rel="stylesheet" type="text/css">
    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>         
-          <script src="js/scipts.js"></script>   
+          <script src="js/script.js"></script>   
 </head>
 
 <body>
@@ -13,11 +13,12 @@
                 <h1>QUIZ BOARD</h1>
              </div>
              <div class ="question">
+                    <div id="blanks">
+                        <form>
                  <ol>
                        
                    <h4><li>What is the other name for JavaScript?</li></h4>
-
-                   <form id="quiz">
+                   
                        <label>
                            <input type="radio" name="question1" value="8">ECMAScript<br>
                        </label>
@@ -61,7 +62,7 @@
                          <input type="radio" name="question4" value="0"> loop()<br>
                     </label>
                     <label>   
-                         <input type="radio" name="question4" value="8"> forEach() 
+                         <input type="radio" name="question4" value="8"> forEach()
                     </label>   
     
                     <h4><li>Which of the following function of Array object sorts the elements of an array?</li></h4>
@@ -83,7 +84,8 @@
                 <button onclick = "myQuiz()">submit</button>
             </div>
             <div class="final">
-                <span id="display">Your score is:0</span>
+                <span id="display">Your score is: 0</span>
+                
              </div>
 </form>
 </div>
